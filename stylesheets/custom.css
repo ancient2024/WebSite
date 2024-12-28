@@ -1,0 +1,35 @@
+.whatsapp-popup {
+	position: fixed;
+	width: 170px;
+	height: 46px;
+	bottom: 80px;
+	right: 32px;
+	background-color: #4fa06e;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 20px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 10000;
+	text-decoration:none;
+}
+@media (max-width: 767px) {
+	.whatsapp-popup {
+		right: auto;
+		bottom: 53px;
+	}
+}
+.whatsapp-popup:hover {
+    color: #fff;
+    background-color: #38b769;
+    text-decoration:none;
+}
+i.wpp-icon-p {
+	font-size: 30px;
+	margin: 8px 8px 12px 0px;
+	vertical-align: middle;
+}
+.wpp-text-p {
+	margin-bottom: 10px;
+	font-family: Sora, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
