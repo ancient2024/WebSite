@@ -44,3 +44,28 @@
 	};
 
 }(jQuery));
+
+$(document).delegate('#close-cookies', 'click', function(event) {
+    event.preventDefault();
+
+    jQuery('.modal-cookie').addClass('d-none');
+});
+
+$(function() {
+    $('[data-bs-toggle="tooltip"]').tooltip({
+        container: '.page'
+    })
+
+    $(".grt-cookie").grtCookie({
+        // Main text and background color
+       // textcolor: "#333",
+       // background: "#FFCD69",
+        // Button colors
+      //  buttonbackground: "#c40b14",
+      //  buttontextcolor: "#fff",
+        // Duration in days
+        duration: 90,
+    });
+})
+
+v
